@@ -1,0 +1,122 @@
+[
+    {
+        "id": 0,
+        "images": "images/Produts/charger 3 in 1.jpg",
+        "title": "3 in 1 Charging USB Cable Charger",
+        "off":"off -40%",
+        "price": 600,
+        "oldprice":999
+    },
+    {
+        "id": 1,
+        "images": "images/Produts/Thumbs-red.jpg",
+        "title": "Gaming Finger Sleeve Pubg",
+        "off":"off -50%",
+        "price": 240,
+        "oldprice":480
+    },
+    {
+        "id": 2,
+        "images": "images/Produts/G-500 speaker.jpg",
+        "title": "G-500 Speaker Bluetooth RGB",
+        "off":"off -21%",
+        "price": 6399,
+        "oldprice":8099
+    },
+    {
+        "id": 3,
+        "images": "images/Produts/headphone.jpg",
+        "title": "IPhone Headset HeadPhone",
+        "off":"off -20%",
+        "price": 2689,
+        "oldprice":3371
+    },
+    {
+        "id": 4,
+        "images": "images/Produts/i7 pro max.jpg",
+        "title": "i7 Pro Max Smart Watch ",
+        "off":"off -10%",
+        "price": 1900,
+        "oldprice":2000
+    },
+    {
+        "id": 5,
+        "images": "images/Produts/Keyboard.jpg",
+        "title": "Mechanical Keyboard And Mouse",
+        "off":"off -59%",
+        "price": 2240,
+        "oldprice":5500
+    },
+    {
+        "id": 6,
+        "images": "images/Produts/i8 pro max.jpg",
+        "title": "i8 Pro Max Smart Watch",
+        "off":"off -66%",
+        "price": 1697,
+        "oldprice":4999
+    },
+    {
+        "id": 7,
+        "images": "images/Produts/m10 earbuds.jpg",
+        "title": "M-10 Earbuds Wireless Power Bank",
+        "off":"off -78%",
+        "price": 1089,
+        "oldprice":5000
+    },
+    {
+        "id": 8,
+        "images": "images/Produts/neckband.jpg",
+        "title": "Neckband Earphone 5.0 Bluetooth",
+        "off":"off -41%",
+        "price": 799,
+        "oldprice":1350
+    },
+    {
+        "id": 9,
+        "images": "images/Produts/Rgb speaker.jpg",
+        "title": "'Bluetooth Speaker Rgb Light <br>",
+        "off":"off -62%",
+        "price": 950,
+        "oldprice":2500
+    },
+    {
+        "id": 10,
+        "images": "images/Produts/t-800 ultra.jpg",
+        "title": "T-800 Ultra Smart Watch Ultra",
+        "off":"off -51%",
+        "price": 1994,
+        "oldprice":4000
+    },
+    {
+        "id": 11,
+        "images": "images/Produts/Trigger.jpg",
+        "title": "G-21 Trigger For Gamers Pubg",
+        "off":"off -50%",
+        "price": 1000,
+        "oldprice":2000
+    },
+    {
+        "id": 12,
+        "images": "images/Produts/car-charger.jpg",
+        "title": "Toocki 30W 5A QC Car Mobile Charger",
+        "off":"off -81%",
+        "price": 533,
+        "oldprice":2791
+    },
+    {
+        "id": 13,
+        "images": "images/Produts/type-c.jpg",
+        "title": "Type C cabel For iphone Charger",
+        "off":"off -87%",
+        "price": 533,
+        "oldprice":4010
+    },
+    {
+        "id": 14,
+        "images": "images/Produts/Earphone cleaner.jpg",
+        "title": "EarPhone Cleaner Brush Kit Camera",
+        "off":"off -86%",
+        "price": 533,
+        "oldprice":3805
+    }
+]

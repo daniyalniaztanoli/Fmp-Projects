@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body onload="nextQuestion()" class="bg-info">
+  <div class="py-5 quiz">
+    <div class="mx-auto text-center mb-5 mt-5 rounded" style="width: 40%;height: 65vh;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;background-color: #242B49;">
+    <nav class="text-white p-3 rounded  rounded w-100 mt-5" style="background-color: #242B49;">
+    <h1 class=" text-center">Quiz App</h1>
+    <hr>
+    <div class="h5 d-flex justify-content-between" >
+      <div class="d-flex justify-content-start">
+         <p>Q:</p>
+        <p id="number"></p> <p>/10</p>
+      </div>
+      <div class="d-flex justify-content-end">
+         <p>Time :</p> 
+        <p id="timer">&nbsp;</p>
+      </div>
+    </div>    
+  </nav>
+      <div class="text-white question-section h2 mt-3">
+        <p id="ques"></p>
+      </div>
+      <!-- radio buttons -->
+  <!-- option section -->
+    <!-- option 1 -->
+    <div class="text-white mt-2 h4">
+      <input type="radio" onclick="clicked()" value="1" name="options">
+      <label id="opt1"></label>
+    </div>
+    <!-- option 2 -->
+    <div class="text-white mt-2 h4">
+      <input type="radio" onclick="clicked()" value="2" name="options">
+      <label id="opt2"></label>
+    </div>
+    <!-- option 3 -->
+      <div class="text-white mt-2 h4">
+        <input type="radio" onclick="clicked()" value="3" name="options">
+      <label id="opt3"></label>
+    </div>
+      <div class="mt-5 d-flex justify-content-center"><button  type="button"  id="btn"  disabled onclick="nextQuestion()" class="btn btn-outline-info w-25 text-white">Next</button></div>
+  </div> 
+  <div class="mb-3">
+  
+  </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>

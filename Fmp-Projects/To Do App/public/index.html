@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Add Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+  <!-- Bootrsap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- style -->
+  <style>
+    ul li{
+      list-style-type: none;
+      margin-top: 20px;
+      width: 100%;
+      font-style: italic;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      align-content: center;
+    }
+    .deletebutton{
+      background: red;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100px;
+      border-radius: 20px;
+    }
+    .deletebutton:hover{
+      background-color: rgb(222, 27, 27);
+      color: white;
+      outline-color: white;
+    }
+    .editbutton{
+      background: green;
+      color: white;
+      border: none;
+      width: 100px;
+      padding: 10px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body style="background: linear-gradient(135deg, rgb(21, 54, 119), rgb(78, 8, 95));" class="vh-100">
+  <nav>
+    <h1 class="text-white shadow text-center">To-Do List <img src="images/icon.png" alt=""></h1>
+  </nav>
+  <section class="py-3">
+    <div class="container p-2 w-50" style="box-shadow: -8px 0px 29px 35px rgba(0,0,0,0.1);border-radius: 20px;">
+      <h6 class="text-white text-center">Date : <span id="date"></span></h6><br>
+      <div class="d-flex justify-content-start flex-column ms-5">
+    </div>
+    <!-- input Field -->
+    <div class="d-flex justify-content-center">
+      <div class="">
+        <input type="text" id="input" placeholder="Enter Your Task" class="p-3 rounded outline-none" style="background-color: white; width: 300px;" >
+        <button onclick="addtodo()" class="btn btn-success p-3 ms-3">Add</button>
+        <button onclick="deleteAll()" class="btn btn-danger p-3 ms-3">Clear</button>
+      </div>
+    </div>
+<!-- list -->
+<div class="list container w-75">
+<ul id="list" class="text-white"style=" box-shadow: -8px 0px 29px 35px rgba(0,0,0,0.1);border-radius: 10px;">
+</ul>
+</div>
+    </div>
+
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
